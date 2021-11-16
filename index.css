@@ -60,3 +60,27 @@ body{
     float: right;
     padding-right: 8px;
   }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+
+  }
+
+  .row{
+    display: flex;
+    padding: 10%;
+    padding-left: 15%;
+    justify-items: center;
+
+  }
+  .column{
+    flex: 50%;
+  }
+
+  #heroImage{
+    padding: 10px;
+    padding-left: 17%;
+  }

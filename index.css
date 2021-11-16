@@ -1,5 +1,6 @@
 body{
-    background-color: red;
+
+  background: linear-gradient(-225deg,#12100e, #000000);
 }
 
 
@@ -64,7 +65,7 @@ body{
   footer {
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
+    background-color: #12100e;
     color: white;
 
   }
@@ -85,4 +86,7 @@ body{
     padding-left: 17%;
   }
 
-  
+.figure{
+  height: 225.65px;
+  width: 401.25px;
+}

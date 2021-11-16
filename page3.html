@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-535RB52P4E"></script>
 <script>
@@ -28,27 +29,96 @@
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 <link rel="stylesheet" href="index.css">
-<a href="index.html">Page One</a>
-<a href="page2.html">Page Two</a>
+
 </head>
 <body>
-
-  <div class="gridContainer">
-    <div class="sidenav">
-      <a href="index.html">About</a>
-      <a href="page2.html">Tips</a>
-      <a href="page3.html">Related Hobbies</a>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Gaming</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Information
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="index.html">Getting Started</a></li>
+            <li><a class="dropdown-item" href="page2.html">Tips and Tricks</a></li>
+            <li><a class="dropdown-item" href="page3.html">Related Hobbies</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+<!--test 1-->
+<main>
+  <h1 class="visually-hidden">Heroes examples</h1>
 
-    
-  <footer>
-    <p>Author: Bao Tran</p>
-    <p><a href="mailto:btran8731@gmail.com">btran8731@gmail.com</a></p>
-  </footer>
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="https://images6.alphacoders.com/100/thumb-1920-1004919.jpg" alt="" width="600" height="">
+    <h1 class="display-5 fw-bold text-white">Game On!</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4 text-white">Games are uniquely able to connect us: to entertain while inspiring teamwork, cooperation and sometimes a little competition. It’s not about who you are, but how you play–and, as our research shows, anyone can play.</p>
+     
+    </div>
+  </div>
+<!--test 2-->
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-center text-center">Related Hobbies</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0 text-info">Coding</h4>
+          <p class="text-white">Any person can enjoy coding. You’ll love coding if you also love building things.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0 text-info">Sports</h4>
+          <p class="text-white">Sports are enjoyable because of their intrinsic fun, the people you can meet through playing (or even just watching!) them, and because of the competitive spirit most sportspeople have.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0 text-info">Hiking</h4>
+          <p class="text-white">More and more people are aware of the benefits of hiking, and therefore, fans are increasing. And is that, when you hike, besides just walking, you enjoy unique landscapes and you are in contact with nature.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div>
+          <h4 class="fw-bold mb-0 text-info">Arts</h4>
+          <p class="text-white">Painting, sculpting, dancing, making music, and all the other artistic pursuits have benefits that go far beyond pure enjoyment or cultural creation — these activities can also strengthen your brain and improve your mood.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">View Other Hobbies</button>
+  
+  </div>
+</main>
+  <!--footer-->  
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">btran8731@gmail.com</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">(xxx) xxx-xxxx</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+    </footer>
+  </div>
+  <!--JS links-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="hw21.js"></script>
+</body>
+
 </html>

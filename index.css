@@ -1,5 +1,6 @@
 body{
-    background-color: red;
+
+  background: linear-gradient(-225deg,#12100e, #000000);
 }
 
 
@@ -60,3 +61,37 @@ body{
     float: right;
     padding-right: 8px;
   }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #12100e;
+    color: white;
+
+  }
+
+  .row{
+    display: flex;
+    padding: 10%;
+    padding-left: 15%;
+    justify-items: center;
+
+  }
+  .column{
+    flex: 50%;
+  }
+
+  #heroImage{
+    padding: 10px;
+    padding-left: 17%;
+  }
+
+.figure{
+  height: 225.65px;
+  width: 401.25px;
+}
+
+.py-5{
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg);
+
+}

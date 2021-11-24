@@ -1,8 +1,11 @@
 body{
 
-  background: linear-gradient(-225deg,#12100e, #000000);
+  background: url(https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
+.navbar{
+  background: url(https://wallpapers.com/images/high/abstract-galaxy-outer-space-microsoft-bmlapfwlmv3xajbb.jpg)
+}
 
 .sidenav {
     height: 100%;
@@ -92,6 +95,6 @@ body{
 }
 
 .py-5{
-  background-image: url(https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg);
+  background-image: url(https://images.pexels.com/photos/6249808/pexels-photo-6249808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 
 }
